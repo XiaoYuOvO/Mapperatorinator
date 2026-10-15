@@ -684,6 +684,7 @@ def main(args: InferenceConfig):
         diff_model=diff_model,
         diff_tokenizer=diff_tokenizer,
         refine_model=refine_model,
+        verbose=True
     )
 
 
