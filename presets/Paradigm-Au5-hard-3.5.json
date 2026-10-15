@@ -1,0 +1,66 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-10-14T16:10:04.179Z",
+  "settings": {
+    "audio_path": "D:\\FlProjects\\Emberwave\\Au5,Psyuri - Paradigm.flac",
+    "output_path": "F:\\OSU\\osu-lazer",
+    "beatmap_path": "F:\\OSU\\osu-lazer\\Au5,Psyuri - Paradigm (Hard)(3.5) [Mapperatorinator].osu",
+    "in_context_options": false,
+    "model": "v32",
+    "gamemode": "0",
+    "difficulty": "3.5",
+    "title": "Paradigm",
+    "title_unicode": "Paradigm",
+    "artist": "Au5,Psyuri",
+    "artist_unicode": "Au5,Psyuri",
+    "creator": "Mapperatorinator, XiaoYu_233",
+    "version": "Hard",
+    "preview_time": "263000",
+    "background_image": "G:\\Download\\[官方MV] Au5 & Psyuri - Paradigm.mp4",
+    "source": "Earthwake",
+    "tags": "",
+    "hp_drain_rate": "5",
+    "circle_size": "4.1",
+    "keycount": "4",
+    "overall_difficulty": "8",
+    "approach_rate": "9",
+    "slider_multiplier": "1.4",
+    "slider_tick_rate": "1",
+    "lora_path": "",
+    "seed": "",
+    "hold_note_ratio": "",
+    "scroll_speed_ratio": "",
+    "mapper_id": "",
+    "cfg_scale": "1.2",
+    "temperature": "0.9",
+    "top_p": "0.9",
+    "year": "2023",
+    "start_time": "28000",
+    "end_time": "340000",
+    "export_osz": true,
+    "add_to_beatmap": false,
+    "overwrite_reference_beatmap": false,
+    "hitsounded": true,
+    "super_timing": true,
+    "enable_bf16": false,
+    "descriptors": false
+  },
+  "descriptors": {
+    "positive": [
+      "style/symmetrical",
+      "expression/progression"
+    ],
+    "negative": [
+      "style/messy",
+      "gimmick/ninja spinners",
+      "skillset/streams",
+      "skillset/reading",
+      "sliders/complex sv",
+      "jumps/sharp",
+      "streams/bursts"
+    ]
+  },
+  "inContextOptions": [
+    "TIMING"
+  ]
+}

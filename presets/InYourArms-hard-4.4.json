@@ -1,0 +1,59 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-10-13T13:46:12.334Z",
+  "settings": {
+    "audio_path": "D:\\CloudMusic\\VipSongsDownload\\ILLENIUM,X Ambassadors - In Your Arms.flac",
+    "output_path": "F:\\OSU\\osu-lazer",
+    "beatmap_path": "",
+    "in_context_options": false,
+    "model": "v32",
+    "gamemode": "0",
+    "difficulty": "4.4",
+    "title": "In Your Arms",
+    "title_unicode": "In Your Arms",
+    "artist": "ILLENIUM,X Ambassadors",
+    "artist_unicode": "ILLENIUM,X Ambassadors",
+    "creator": "",
+    "version": "Hard",
+    "preview_time": "",
+    "background_image": "",
+    "source": "",
+    "tags": "",
+    "hp_drain_rate": "5",
+    "circle_size": "4",
+    "keycount": "4",
+    "overall_difficulty": "8",
+    "approach_rate": "9",
+    "slider_multiplier": "1.4",
+    "slider_tick_rate": "1",
+    "lora_path": "",
+    "seed": "",
+    "hold_note_ratio": "",
+    "scroll_speed_ratio": "",
+    "mapper_id": "",
+    "cfg_scale": "1.0",
+    "temperature": "0.9",
+    "top_p": "0.9",
+    "year": "2023",
+    "start_time": "7000",
+    "end_time": "216000",
+    "export_osz": true,
+    "add_to_beatmap": false,
+    "overwrite_reference_beatmap": false,
+    "hitsounded": true,
+    "super_timing": false,
+    "enable_bf16": false,
+    "descriptors": false
+  },
+  "descriptors": {
+    "positive": [
+      "style/clean",
+      "expression/progression",
+      "streams/flow aim"
+    ],
+    "negative": [
+      "reading/overlaps"
+    ]
+  },
+  "inContextOptions": []
+}

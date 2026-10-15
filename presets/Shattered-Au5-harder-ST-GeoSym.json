@@ -1,0 +1,65 @@
+{
+  "version": "1.0",
+  "timestamp": "2026-10-14T07:00:21.489Z",
+  "settings": {
+    "audio_path": "D:\\FlProjects\\Emberwave\\Au5 - Shattered.flac",
+    "output_path": "F:\\OSU\\osu-lazer",
+    "beatmap_path": "F:\\OSU\\osu-lazer\\Au5 - Shattered (Harder-GeoSym)(4.0) [Mapperatorinator].osu",
+    "in_context_options": false,
+    "model": "v32",
+    "gamemode": "0",
+    "difficulty": "4",
+    "title": "Shattered",
+    "title_unicode": "Shattered",
+    "artist": "Au5",
+    "artist_unicode": "Au5",
+    "creator": "",
+    "version": "Harder-GeoSym-v2",
+    "preview_time": "90000",
+    "background_image": "",
+    "source": "Emberwave",
+    "tags": "",
+    "hp_drain_rate": "5",
+    "circle_size": "4.1",
+    "keycount": "4",
+    "overall_difficulty": "8",
+    "approach_rate": "9",
+    "slider_multiplier": "1.4",
+    "slider_tick_rate": "1",
+    "lora_path": "",
+    "seed": "",
+    "hold_note_ratio": "",
+    "scroll_speed_ratio": "",
+    "mapper_id": "",
+    "cfg_scale": "1.2",
+    "temperature": "0.9",
+    "top_p": "0.9",
+    "year": "2023",
+    "start_time": "13000",
+    "end_time": "",
+    "export_osz": true,
+    "add_to_beatmap": false,
+    "overwrite_reference_beatmap": false,
+    "hitsounded": true,
+    "super_timing": true,
+    "enable_bf16": false,
+    "descriptors": false
+  },
+  "descriptors": {
+    "positive": [
+      "style/geometric",
+      "style/symmetrical"
+    ],
+    "negative": [
+      "style/messy",
+      "gimmick/ninja spinners",
+      "skillset/streams",
+      "sliders/complex sv",
+      "jumps/sharp",
+      "streams/bursts"
+    ]
+  },
+  "inContextOptions": [
+    "TIMING"
+  ]
+}
