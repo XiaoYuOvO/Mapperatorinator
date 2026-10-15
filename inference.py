@@ -526,18 +526,23 @@ def generate(
 
     result_path = None
     osz_path = None
-
+    ##MODDED
+    output_filename = (f"{str(args.artist)} - {str(args.title)} "
+                       f"{'('+args.version+')' if args.version is not None else ''}"
+                       f"{'('+str(args.difficulty)+')' if args.difficulty is not None else ''}"
+                       f" [Mapperatorinator]") \
+        if args.title is not None and args.artist is not None else f"beatmap{str(uuid.uuid4().hex)}"
     if output_path is not None and output_path != "":
         if args.add_to_beatmap and args.overwrite_reference_beatmap:
             result_path = beatmap_path
         else:
-            result_path = os.path.join(output_path, f"beatmap{str(uuid.uuid4().hex)}.osu")
+            result_path = os.path.join(output_path, f"{output_filename}.osu")
         postprocessor.write_result(result, result_path)
         if verbose:
             logger.info(f"Generated beatmap saved to {result_path}")
 
     if args.export_osz:
-        osz_path = os.path.join(output_path, f"beatmap{str(uuid.uuid4().hex)}.osz")
+        osz_path = os.path.join(output_path, f"{output_filename}.osz")
         postprocessor.export_osz(result_path, audio_path, osz_path, args.background)
         if verbose:
             logger.info(f"Generated .osz saved to {osz_path}")
